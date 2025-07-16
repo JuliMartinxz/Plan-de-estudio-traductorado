@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Curricular - Traductorado de Inglés</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #4a4a4a;
+    }
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .year {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      width: 250px;
+    }
+    .year h2 {
+      text-align: center;
+      color: #333;
+    }
+    .subject {
+      background: #d9eaff;
+      border-left: 6px solid #4285f4;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .subject:hover {
+      background: #c0dbff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular - Traductorado de Inglés</h1>
+  <div class="container">
+    
+    <div class="year">
+      <h2>Ciclo de Nivelación</h2>
+      <div class="subject">Lengua Castellana</div>
+      <div class="subject">Lengua Inglesa</div>
+    </div>
+    
+    <div class="year">
+      <h2>1º Año</h2>
+      <div class="subject">Lengua Castellana I</div>
+      <div class="subject">Lengua Inglesa I</div>
+      <div class="subject">Práctica Gramatical del Inglés</div>
+      <div class="subject">Práctica de la Pronunciación del Inglés</div>
+      <div class="subject">Introducción a la Traductología</div>
+    </div>
+
+    <div class="year">
+      <h2>2º Año</h2>
+      <div class="subject">Lengua Castellana II</div>
+      <div class="subject">Lengua Inglesa II</div>
+      <div class="subject">Gramática Inglesa I</div>
+      <div class="subject">Fonética y Fonología I</div>
+      <div class="subject">Métodos y Técnicas de la Traducción</div>
+      <div class="subject">Terminología y Documentación</div>
+      <div class="subject">Teoría y Práctica de la Investigación</div>
+    </div>
+
+  </div>
+</body>
+</html>
+crear index.html base
